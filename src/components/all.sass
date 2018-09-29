@@ -25,7 +25,7 @@ $primary-invert: $kaldi-red-invert
 // Helper Classes
 .full-width-image-container
   width: 100vw
-  height: 400px
+  height: 40vw
   position: relative
   left: 50%
   right: 50%
@@ -38,5 +38,20 @@ $primary-invert: $kaldi-red-invert
 
 .margin-top-0
   margin-top: 0 !important
+
+// New styles added
+.section
+    padding: 2rem 1.5rem !important;
+.product-section, .product-section .section
+  padding: 0 !important
+
+.navbar
+  background-color: #2d2d86 !important
+.navbar-item
+  color: #ffffff !important
+.navbar-item:hover
+  color: #cccccc !important
+.navbar-item img
+  max-height: none !important
 
 @import "~bulma"
