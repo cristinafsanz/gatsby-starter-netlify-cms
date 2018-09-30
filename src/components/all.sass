@@ -40,18 +40,35 @@ $primary-invert: $kaldi-red-invert
   margin-top: 0 !important
 
 // New styles added
+body
+  font-size: 1.05rem !important;
+
 .section
     padding: 2rem 1.5rem !important;
 .product-section, .product-section .section
-  padding: 0 !important
+  padding: 0 0 1rem 0 !important
 
 .navbar
   background-color: #2d2d86 !important
 .navbar-item
   color: #ffffff !important
+  font-weight: 700;
 .navbar-item:hover
   color: #cccccc !important
 .navbar-item img
   max-height: none !important
+
+.footer
+  background-color: #2d2d86 !important
+.footer li
+  font-weight: 700;
+.footer h3, .footer li, .footer li a
+  color: #ffffff !important
+.footer li a:hover
+  color: #cccccc !important
+.is-vertical-center
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
 
 @import "~bulma"
