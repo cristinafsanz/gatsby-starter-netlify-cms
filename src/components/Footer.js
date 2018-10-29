@@ -8,12 +8,12 @@ const Footer = () => (
         <h3>Menú</h3>
         <ul>
           <li>
-          <Link to="/servicios">
+          <Link to="/">
             Servicios
           </Link>
           </li>
           <li>
-          <Link to="/">
+          <Link to="/blog">
             Blog
           </Link>
           </li>
