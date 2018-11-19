@@ -36,7 +36,7 @@ https://trusting-aryabhata-059eda.netlify.com/admin/#/collections/blog.
 Identity:
 https://app.netlify.com/sites/trusting-aryabhata-059eda/settings/identity.
 
-Add administrator: https://app.netlify.com/sites/trusting-aryabhata-059eda/settings/general.
+  Add content manager: [Identity tab](https://app.netlify.com/sites/trusting-aryabhata-059eda/identity): Add email content manager.
 
 ## Changes
 
@@ -85,7 +85,7 @@ Add administrator: https://app.netlify.com/sites/trusting-aryabhata-059eda/setti
 
 - Responsive
 
-- User manual to add/edit posts
+- SEO
 
 - Add filter tags
 
