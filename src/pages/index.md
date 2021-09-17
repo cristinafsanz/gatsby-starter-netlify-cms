@@ -1,32 +1,70 @@
 ---
-templateKey: 'product-page'
-path: /servicios
-title: Servicios
-image: /img/cabecera.jpg
-heading: Servicios
+templateKey: index-page
+title: Great coffee with a conscience
+image: /img/home-jumbotron.jpg
+heading: Great coffee with a conscience
+subheading: Support sustainable farming while enjoying a cup
+mainpitch:
+  title: Why Kaldi
+  description: >
+    Kaldi is the coffee store for everyone who believes that great coffee
+    shouldn't just taste good, it should do good too. We source all of our beans
+    directly from small scale sustainable farmers and make sure part of the
+    profits are reinvested in their communities.
 description: >-
-  "Centro de ayuda a adolescentes" es un centro de psicología especializado en adolescentes y sus familias.
+  Kaldi is the ultimate spot for coffee lovers who want to learn about their
+  java’s origin and support the farmers that grew it. We take coffee production,
+  roasting and brewing seriously and we’re glad to pass that knowledge to
+  anyone.
 intro:
   blurbs:
-    - heading: Musicoterapia
+    - image: /img/coffee.png
       text: >
-        La musicoterapia es el manejo de la música y sus elementos musicales (sonido, ritmo, melodía y armonía) con el fin de satisfacer el bienestar físico, emocional, mental, social y cognitivo. 
-        Si está interesado en saber más sobre el uso terapeútico de la música o quiere realizar musicoterapia a través de este centro, acceda a musicoterapia.
-    - heading: Motivación
+        We sell green and roasted coffee beans that are sourced directly from
+        independent farmers and farm cooperatives. We’re proud to offer a
+        variety of coffee beans grown with great care for the environment and
+        local communities. Check our post or contact us directly for current
+        availability.
+    - image: /img/coffee-gear.png
       text: >
-        Un tema que puede preocupar a los padres es la falta de motivación de sus hijos en los estudios. Piensan que todo le da igual o que no tiene interés.
-        Las causas pueden ser diversas. Si está interesado en este tema o sufre este problema, no dude en consultarnos.
-    - heading: Adolescente y familia
+        We offer a small, but carefully curated selection of brewing gear and
+        tools for every taste and experience level. No matter if you roast your
+        own beans or just bought your first french press, you’ll find a gadget
+        to fall in love with in our shop.
+    - image: /img/tutorials.png
       text: >
-        La familia juega un papel fundamental en el desarrollo social de los adolescentes, la relación padres-hijos va a sentar las bases sobre la que se construirán los cimientos de los comportamientos adolescentes.
-        Por ello este centro no sólo se dirige a los adolescentes, sino también a orientar a los padres para que puedan ayudar y apoyar a sus hijos.  
-    - heading: Técnicas de estudio
+        Love a great cup of coffee, but never knew how to make one? Bought a
+        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
+        to help. You can schedule a custom 1-on-1 consultation with our baristas
+        to learn anything you want to know about coffee roasting and brewing.
+        Email us or call the store for details.
+    - image: /img/meeting-space.png
       text: >
-        En el blog encontrará distintos métodos que pueden ser eficaces para afrontar los problemas de concentración en el estudio. Puede que el entorno sea inadecuado, se tengan miedos a no conseguir los resultados esperados, se tengan preocupaciones o hayan aparecido problemas de ansiedad. Sea cual sea la causa, hay que adoptar una actitud positiva y seguir los consejos de especialistas.
-    - heading: Manifestaciones clínico-educativas
-      text: >
-        Los estados de ánimo pueden influir sobre cómo nos va en ciertas situaciones, pero también puede hacerlo algo más: nuestro estado mental. ¿Cuál es la diferencia entre un estado de ánimo y un estado mental? Los estados de ánimo son las emociones que sentimos. El estado mental son los pensamientos e ideas que acompañan ese estado de ánimo. Puede saber más a través del blog.
-    - heading: Ansiedad
-      text: >
-        La ansiedad es un trastorno emocional complejo, que implica también problemas en pensamientos y conductas. Como psicóloga colaboradora de Clínica Moreno - Psicólogos, recomiendo el libro Superar la ansiedad y el miedo como ayuda para el tratamiento de la ansiedad.
+        We believe that good coffee has the power to bring people together.
+        That’s why we decided to turn a corner of our shop into a cozy meeting
+        space where you can hang out with fellow coffee lovers and learn about
+        coffee making techniques. All of the artwork on display there is for
+        sale. The full price you pay goes to the artist.
+  heading: What we offer
+  description: >
+    Kaldi is the ultimate spot for coffee lovers who want to learn about their
+    java’s origin and support the farmers that grew it. We take coffee
+    production, roasting and brewing seriously and we’re glad to pass that
+    knowledge to anyone. This is an edit via identity...
+main:
+  heading: Great coffee with no compromises
+  description: >
+    We hold our coffee to the highest standards from the shrub to the cup.
+    That’s why we’re meticulous and transparent about each step of the coffee’s
+    journey. We personally visit each farm to make sure the conditions are
+    optimal for the plants, farmers and the local environment.
+  image1:
+    alt: A close-up of a paper filter filled with ground coffee
+    image: /img/products-grid3.jpg
+  image2:
+    alt: A green cup of a coffee on a wooden table
+    image: /img/products-grid2.jpg
+  image3:
+    alt: Coffee beans
+    image: /img/products-grid1.jpg
 ---
