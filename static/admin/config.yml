@@ -64,7 +64,7 @@ collections:
                     widget: list,
                     fields:
                       [
-                        { label: Image, name: image, widget: image },
+                        { label: Heading, name: heading, widget: string },
                         { label: Text, name: text, widget: text },
                       ],
                   },
@@ -150,7 +150,7 @@ collections:
                     widget: list,
                     fields:
                       [
-                        { label: Image, name: image, widget: image },
+                        { label: Heading, name: heading, widget: string },
                         { label: Text, name: text, widget: text },
                       ],
                   },

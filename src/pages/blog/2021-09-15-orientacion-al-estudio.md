@@ -1,7 +1,8 @@
 ---
 templateKey: blog-post
 title: Orientación al estudio
-date: 2018-09-15T15:00:00.000Z
+date: 2021-09-15T15:00:00.000Z
+featuredpost: false
 description: Saber lo que vamos o queremos estudiar es importante de cara a nuestro futuro y nuestro estado de ánimo.
 tags:
   - estudios
@@ -40,4 +41,3 @@ El primer paso para contestar a esa pregunta es conocer las causas que provocan 
 Por un lado, existe un amplio sector de estudiantes que no saben su "oficio"; estudiar no es algo sencillo, y como en cualquier otro oficio, es necesario disponer de unas técnicas, en este caso de unas técnicas de estudio.
 Por otra parte muchos, tras empezar una carrera, se cuestionan si realmente es lo que querían hacer. Una orientación previa por parte de un profesional, en base a las aptitudes y actitudes del estudiante supone una ayuda inestimable, que incrementará las posibilidades de éxito.
 Toma la iniciativa. Ponte en contacto con el centro si deseas asesorarte.
-

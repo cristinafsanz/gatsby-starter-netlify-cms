@@ -1,13 +1,17 @@
 ---
-templateKey: 'blog-post'
-title: 'Musicoterapia'
-date: 2018-09-20T15:04:10.000Z
+templateKey: "blog-post"
+title: "Musicoterapia"
+date: 2021-09-20T15:04:10.000Z
+featuredpost: true
+featuredimage: /img/chemex.jpg
 description: >-
   La música tiene la capacidad y la fuerza de emocionar, de mover al ser humano tanto en el ámbito físico como en el psíquico
 tags:
   - psicología
   - música
 ---
+
+![chemex](/img/chemex.jpg)
 
 La música tiene la capacidad y la fuerza de emocionar, de mover al ser humano tanto en el ámbito físico como en el psíquico. En musicoterapia, este poder se utiliza en la consecución de objetivos terapéuticos, manteniendo, mejorando y restaurando el funcionamiento físico, cognitivo, emocional y social de las personas. La musicoterapia es tremendamente efectiva para el ser humano porque éste necesita la música.
 
@@ -17,11 +21,11 @@ La musicoterapia se puede aplicar tanto a nivel grupal como a nivel individual, 
 
 Como resumen, con la musicoterapia podemos tratar:
 
-* Ritmos y respiración.
-* Abstracción, aprender a escuchar música, identificar instrumentos, tocar, etc.
-* Relaciones espaciales, expresión libre de la música.
-* Control de impulsos, hábitos de atención, concentración y memoria.
-* Creatividad, “hacer” música y ritmos.
-* Reconocimiento y expresión de sentimientos (qué me produce esta melodía, qué me transmite).
-* Integración y seguridad en el grupo.
-* Y muchas más…
+- Ritmos y respiración.
+- Abstracción, aprender a escuchar música, identificar instrumentos, tocar, etc.
+- Relaciones espaciales, expresión libre de la música.
+- Control de impulsos, hábitos de atención, concentración y memoria.
+- Creatividad, “hacer” música y ritmos.
+- Reconocimiento y expresión de sentimientos (qué me produce esta melodía, qué me transmite).
+- Integración y seguridad en el grupo.
+- Y muchas más…

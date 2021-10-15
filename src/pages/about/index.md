@@ -1,19 +1,21 @@
 ---
-templateKey: 'about-page'
+templateKey: "about-page"
 path: /about
-title: About our values
+title: Sobre mí
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+Mi nombre es Santiaga Fernández Villanueva. Terminé mis estudios de psicología en el año 2006. Poseo la titulación de experta en psicofarmacologia y monitora de musicoterapia entre otras.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+Tengo experiencia en hablar y comunicarme con adolescentes, un colectivo que me interesa mucho, pues me parece que es una etapa de la vida muy incomprendida. Para ilustrar la idea que quiero transmitir, os dejo una cita que podría seguir siendo utilizada en la actualidad:
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+> _"Los jóvenes hoy en día son unos tiranos. Contradicen a sus padres, devoran su comida, y le faltan al respeto a sus maestros"._
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+Sócrates (470 AC-399 AC) Filósofo griego
+
+### Centro de ayuda al adolescente
+
+La idea de la creación de este centro surge a partir de mi propia experiencia. Trabajando con gente joven me di cuenta que necesitamos ayudarles ahora para que el día de mañana sean adultos “sanos”. Esta ayuda no la podemos realizar solos, sino que necesitamos a la familia y a las instituciones educativas. Por ello, nuestro centro busca un trabajo y coordinación en equipo para ser lo más eficaces posible.
+
+### Musicoterapia
+
+¿Por qué añadir musicoterapia a la terapia convencional?. Me encanta la música como hobby y la psicología es mi pasión, así que un buen día decidir juntar las dos. La musicoterapia me parece una herramienta importante para conseguir ese bienestar que a veces no conseguimos. La música forma parte de nuestras vidas y a veces despierta emociones que son importantes saber canalizar y aprender de ellas.

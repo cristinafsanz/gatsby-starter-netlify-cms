@@ -34,7 +34,7 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar has-background-black"
         role="navigation"
         aria-label="main-navigation"
       >
@@ -49,7 +49,7 @@ const Navbar = class extends React.Component {
             </Link>
             {/* Hamburger menu */}
             <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+              className={`navbar-burger burger has-text-white-ter ${this.state.navBarActiveClass}`}
               data-target="navMenu"
               onClick={() => this.toggleHamburger()}
             >
@@ -60,13 +60,13 @@ const Navbar = class extends React.Component {
           </div>
           <div
             id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
+            className={`navbar-menu has-background-black ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
+              <Link className="navbar-item has-text-white-ter" to="/about">
                 Sobre mí
               </Link>
-              <Link className="navbar-item" to="/blog">
+              <Link className="navbar-item has-text-white-ter" to="/blog">
                 Blog
               </Link>
             </div>
