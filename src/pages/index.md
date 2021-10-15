@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Centro de ayuda y orientación
-image: /img/home-jumbotron.jpg
+image: /img/helena-lopes-DkGIAjlIJu0-unsplash.jpg
 heading: Centro de ayuda a adolescentes
 subheading: al adolescente y su familia
 description: >-
