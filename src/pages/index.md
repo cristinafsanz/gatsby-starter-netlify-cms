@@ -5,7 +5,7 @@ image: /img/helena-lopes-DkGIAjlIJu0-unsplash.jpg
 heading: Centro de ayuda a adolescentes
 subheading: al adolescente y su familia
 description: >-
-  Centro de psicología especializado en adolescentes y sus familias.
+  Detalle de los servicios que ofrecemos, tanto para adolescentes y sus familias como para población adulta. Consulta presencial u online.
 intro:
   blurbs:
     - heading: Adolescente y familia

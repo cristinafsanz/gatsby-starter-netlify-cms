@@ -4,7 +4,7 @@ path: /about
 title: Sobre mí
 ---
 
-Mi nombre es Santiaga Fernández Villanueva. Terminé mis estudios de psicología en el año 2006. Poseo la titulación de experta en psicofarmacologia y monitora de musicoterapia entre otras.
+Mi nombre es Santiaga Fernández Villanueva, psicóloga sanitaria (CM/02757). Terminé mis estudios de psicología en el año 2006. Poseo la titulación de experta en psicofarmacologia y monitora de musicoterapia entre otras.
 
 Tengo experiencia en hablar y comunicarme con adolescentes, un colectivo que me interesa mucho, pues me parece que es una etapa de la vida muy incomprendida. Para ilustrar la idea que quiero transmitir, os dejo una cita que podría seguir siendo utilizada en la actualidad:
 

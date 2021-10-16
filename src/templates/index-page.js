@@ -70,7 +70,7 @@ export const IndexPageTemplate = ({
                 <div className="columns">
                   <div className="column is-12">
                     <h1 className="has-text-weight-semibold is-size-2">
-                      {heading}
+                      Servicios
                     </h1>
                     <p>{description}</p>
                   </div>
