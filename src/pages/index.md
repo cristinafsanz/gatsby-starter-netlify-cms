@@ -1,9 +1,8 @@
 ---
 templateKey: index-page
-title: Centro de ayuda y orientación
+title: Centro de ayuda y orientación al adolescente y su familia
 image: /img/helena-lopes-DkGIAjlIJu0-unsplash.jpg
 heading: Centro de ayuda a adolescentes
-subheading: al adolescente y su familia
 description: >-
   Detalle de los servicios que ofrecemos, tanto para adolescentes y sus familias como para población adulta. Consulta presencial u online.
 intro:

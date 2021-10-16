@@ -6,14 +6,7 @@ import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 
-export const IndexPageTemplate = ({
-  image,
-  title,
-  heading,
-  subheading,
-  description,
-  intro,
-}) => (
+export const IndexPageTemplate = ({ image, title, description, intro }) => (
   <div>
     <div
       className="full-width-image margin-top-0"
@@ -26,13 +19,13 @@ export const IndexPageTemplate = ({
       }}
     >
       <div
+        className="full-width-image margin-top-0 column is-half-desktop"
         style={{
           display: "flex",
           height: "150px",
           lineHeight: "1",
-          justifyContent: "space-around",
-          alignItems: "left",
-          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
         }}
       >
         <h1
@@ -47,18 +40,6 @@ export const IndexPageTemplate = ({
         >
           {title}
         </h1>
-        <h2
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            boxShadow: "#283350 0.5rem 0px 0px, #283350 -0.5rem 0px 0px",
-            backgroundColor: "#283350",
-            color: "white",
-            lineHeight: "1",
-            padding: "0.25em",
-          }}
-        >
-          {subheading}
-        </h2>
       </div>
     </div>
     <section className="section section--gradient">
@@ -100,7 +81,6 @@ IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
-  subheading: PropTypes.string,
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
@@ -116,7 +96,6 @@ const IndexPage = ({ data }) => {
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
         description={frontmatter.description}
         intro={frontmatter.intro}
       />
@@ -147,7 +126,6 @@ export const pageQuery = graphql`
           }
         }
         heading
-        subheading
         description
         intro {
           blurbs {
