@@ -1,27 +1,32 @@
-import React from 'react'
-import Helmet from 'react-helmet'
+import React from "react";
+import { Helmet } from "react-helmet";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import "./all.sass";
+import favicon from "../../static/img/favicon.ico";
+import useSiteMetadata from "./SiteMetadata";
 
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import './all.sass'
-import favicon from '../img/favicon.ico';
+const TemplateWrapper = ({ children }) => {
+  const { title, description } = useSiteMetadata();
+  return (
+    <div>
+      <Helmet>
+        <html lang="en" />
+        <title>{title}</title>
+        <meta name="description" content={description} />
 
-const TemplateWrapper = ({ children }) => (
-  <div>
-    <Helmet
-      title="Centro de ayuda a Adolescentes"
-      meta={[
-        { name: 'description', content: 'Centro de psicología cuyo objetivo es ayudar a adolescentes y sus familias.' },
-        { name: 'keywords', content: 'Centro,Psicología,Ayuda,Adolescentes,Musicoterapia' },
-      ]}
-      link={[
-        { rel: 'shortcut icon', type: 'image/ico', href: `${favicon}` }
-      ]}
-    />
-    <Navbar />
-    <div>{children}</div>
-    <Footer />
-  </div>
-)
+        <link rel="shortcut icon" type="image/ico" href={`${favicon}`} />
+        <meta name="theme-color" content="#fff" />
 
-export default TemplateWrapper
+        <meta property="og:type" content="business.business" />
+        <meta property="og:title" content={title} />
+        <meta property="og:url" content="/" />
+      </Helmet>
+      <Navbar />
+      <div>{children}</div>
+      <Footer />
+    </div>
+  );
+};
+
+export default TemplateWrapper;

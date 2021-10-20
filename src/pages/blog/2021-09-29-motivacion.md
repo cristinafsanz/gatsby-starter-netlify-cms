@@ -1,7 +1,8 @@
 ---
 templateKey: blog-post
 title: Motivación
-date: 2018-09-29T15:10:10.000Z
+date: 2021-09-29T15:10:10.000Z
+featuredpost: false
 description: La motivación es el motor de nuestras conductas.
 tags:
   - psicología

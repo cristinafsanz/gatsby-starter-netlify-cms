@@ -1,77 +1,39 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
-import Layout from '../../components/Layout'
+import React from "react";
 
-export default class IndexPage extends React.Component {
+import Layout from "../../components/Layout";
+import BlogRoll from "../../components/BlogRoll";
+
+export default class BlogIndexPage extends React.Component {
   render() {
-    const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
-
     return (
       <Layout>
+        <div
+          className="full-width-image-container margin-top-0"
+          style={{
+            backgroundImage: `url('/img/helena-lopes-PGnqT0rXWLs-unsplash.jpg')`,
+            backgroundPosition: `70% 75%`,
+          }}
+        >
+          <h1
+            className="has-text-weight-bold is-size-1"
+            style={{
+              boxShadow: "0.5rem 0 0 #078b8d, -0.5rem 0 0 #078b8d",
+              backgroundColor: "#078b8d",
+              color: "white",
+              padding: "1rem",
+            }}
+          >
+            Artículos
+          </h1>
+        </div>
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1 className="has-text-weight-bold is-size-2">Últimos artículos</h1>
+              <BlogRoll />
             </div>
-            {posts
-              .map(({ node: post }) => (
-                <div
-                  className="content"
-                  style={{ border: '1px solid #eaecee', padding: '2em 4em' }}
-                  key={post.id}
-                >
-                  <p>
-                    <Link className="text-title" to={post.fields.slug}>
-                      {post.frontmatter.title}
-                    </Link>
-                  </p>
-                  <p>
-                    {post.excerpt}
-                    <br />
-                    <br />
-                    <Link className="button is-small" to={post.fields.slug}>
-                      Seguir leyendo →
-                    </Link>
-                  </p>
-                </div>
-              ))}
           </div>
         </section>
       </Layout>
-    )
+    );
   }
 }
-
-IndexPage.propTypes = {
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
-}
-
-export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] },
-      filter: { frontmatter: { templateKey: { eq: "blog-post" } }}
-    ) {
-      edges {
-        node {
-          excerpt(pruneLength: 400)
-          id
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-            templateKey
-            date(formatString: "MMMM DD, YYYY")
-          }
-        }
-      }
-    }
-  }
-`
